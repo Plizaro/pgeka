@@ -7980,6 +7980,7 @@ var stage, world, mc, fps = 24,
     mixer, zombies, showDebugDraw = !1,
     cannonMount, cannon, bodyCannon;
 window.onload = function() {
+    didLoad();
     GET = Utils.parseGet();
     Utils.addMobileListeners(LANDSCAPE_MODE);
     Utils.mobileCorrectPixelRatio();
